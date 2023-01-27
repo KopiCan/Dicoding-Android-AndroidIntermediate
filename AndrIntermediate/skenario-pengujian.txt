@@ -1,0 +1,45 @@
+Skenario Pengujian:
+
+StoryRepositoryTest
+Test ketika mengambil data dari Internet (API)
+1. Get Story Test
+	a. Memastikan data tidak null
+	b. Memastikan jumlah data sesuai dengan yang diharapkan (expected)
+
+2. Register Test
+	a. Memastikan data tidak null
+	b. Memastikan pesan response sesuai yang diharapkan (expected)
+
+3. Login Test
+	a. Memastikan data tidak null
+	b. Memastikan pesan response sesuai yang diharapkan (expected)
+
+4. Get Story With Location Test
+	a. Memastikan hasil data tidak null
+	b. Memastikan hasil jumlah data sesuai dengan yang diharapkan (expected)
+
+5. Upload Test
+	a. Memastikan hasil data tidak null
+	b. Memastikan hasil pesan response sesuai yang diharapkan (expected)
+
+HomeViewModelTest
+a. Memastikan bahwa data Story tidak null
+b. Memastikan hasil jumlah data sesuai yang diharapkan (expected)
+
+LoginViewModelTest
+a. Memastikan ketika test melakukan Login data tidak null
+b. Memastikan mengembalikan Result.Success
+
+MapsViewModel
+a. Memastikan bahwa data story tidak null
+b. Memastikan mengembalikan Result.Success
+
+NewStoryViewModelTest
+a. Memastikan ketika test menambahkan Story data tidak null
+b. Memastikan mengembalikan Result.Success
+
+RegisterViewModelTest
+a. Memastikan ketika test melakukan Register data tidak null
+b. Memastikan mengembalikan Result.Success
+
+
